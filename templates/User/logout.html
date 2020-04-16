@@ -1,0 +1,12 @@
+{% extends "Blog/base.html" %}
+
+{% block content %}
+    <div class="content-section">
+        <h2> You Are Successfully LogOut </h2>
+        <div class="border-top pt-3">
+            <small class="text-muted">
+            <a class="btn btn-success" href="{%url 'login'%}">Sign In</a>
+            </small>
+        </div>
+    </div>
+{% endblock content %}
